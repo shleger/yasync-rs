@@ -1,0 +1,11 @@
+[package]
+name = "yasync"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+google-photoslibrary1 = "*"
+serde = "^1.0"
+serde_json = "^1.0"
+tokio = { version = "1.38.0", features = ["rt-multi-thread"] }
